@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Bối toán</title>
+
+</head>
+<body>
+    <div class="app">
+        <div class="app-container">
+            <h1 class="app-title">Bói hơi xui</h1>
+            <div class="input-group">
+                <label for="input-name">Tên bạn là gì?</label>
+                <input id="input-name" class="input app-input--name" placeholder="Nhập tên của bạn..." type="text">
+            </div>
+            <div class="input-group">
+                <label for="input-content">Nhập một từ nào đó</label>
+                <input id="input-content" class="input app-input--content" placeholder="VD: Đề ez, Mừ đỉm, ...." type="text">
+            </div>
+            <button class="app-btn">Bói liền</button>
+            <div class="error--message d-none">— Nhập cho đầy đặn vào —</div>
+        </div>
+    </div>
+   <div class="main d-none">
+       <div class="main-container">
+            <div class="info--message"></div>
+            <div class="load-container">
+                <div class="load-progress"></div>
+            </div>
+            <div style="color: rgb(215, 8, 8);" class="info--message">Đang bói, vui lòng không làm phiền!</div>
+       </div>
+
+        <div class="content">
+
+            <div class="box">
+                <div class="finish">
+                        <div class="left"></div>
+                        <div class="right"></div>
+                </div>
+            </div>
+            <div class="success--message">
+            </div>
+
+        </div>
+   </div>
+
+   <script src="./main.js"></script>
+</body>
+</html>
